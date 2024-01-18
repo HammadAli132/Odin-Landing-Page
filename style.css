@@ -196,3 +196,15 @@ button:hover {
 .box > button {
     border: 3px solid var(--logo);
 }
+
+/* Designing the footer */
+
+footer {
+    background-color: var(--hero_color);
+    color: var(--logo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    font-size: 18px;
+}
