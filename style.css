@@ -86,10 +86,24 @@
     color: var(--navlink);
 }
 
+.text > button:hover {
+    cursor: pointer;
+}
+
 .image {
     background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--navlink);
+}
+
+/* Designing the main */
+
+.rand-info {
+    padding: 2em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
