@@ -4,6 +4,7 @@
     --navlink: #e5e7eb;
     --hero_color:  #1F2936;
     --button: #3882f6;
+    --black: #1f2937;
 }
 
 /* Reseting */
@@ -106,4 +107,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
 }
+
+.rand-info > .top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.cards {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 2em 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.prof-pic {
+    border: 3px solid var(--button);
+    border-radius: 10px;
+    height: 7em;
+}
+
+.info {
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    margin-top: .5em;
+}
+
+
