@@ -78,16 +78,18 @@
     font-size: 18px;
 }
 
-.text button {
+button {
     background-color: var(--button);
-    padding: 5px 15px;
+    padding: .6em 2.5em;
     border: none;
-    border-radius: 5px;
+    border-radius: 12px;
     margin-top: .5em;
     color: var(--navlink);
+    font-size: medium;
+    font-weight:bold;
 }
 
-.text > button:hover {
+button:hover {
     cursor: pointer;
 }
 
@@ -161,4 +163,36 @@
     align-self: flex-end;
     font-weight: bolder;
     margin-right: 4em;
+}
+
+.call-to-action {
+    padding: 6em 15em;
+}
+
+.box {
+    padding: 4em 8em;
+    background-color: var(--button);
+    color: var(--logo);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statements {
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+
+.s1 {
+    font-size: 24px;
+    font-weight: bold;
+} 
+
+.s2 {
+    font-size: 18px;
+}
+
+.box > button {
+    border: 3px solid var(--logo);
 }
