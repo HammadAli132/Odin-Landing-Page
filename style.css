@@ -107,7 +107,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
 }
 
 .rand-info > .top {
@@ -142,4 +141,24 @@
     margin-top: .5em;
 }
 
+.quote {
+    background-color: var(--navlink);
+    padding: 5em 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.thor-quote {
+    color: var(--black);
+    font-size: 36px;
+    font-weight:100;
+    font-style: italic;
+}
+
+.reference {
+    align-self: flex-end;
+    font-weight: bolder;
+    margin-right: 4em;
+}
